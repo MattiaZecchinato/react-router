@@ -17,9 +17,9 @@ export default function PostList() {
             .catch(err => console.log(err))
     }, []);
 
-    return <>
+    return <div className="posts-container">
     
         {postsList.map(elem => <PostCard key={elem.id} title={elem.title} content={elem.body} />)}
     
-    </>
+    </div>
 }

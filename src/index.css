@@ -17,3 +17,23 @@ a {
 
     text-decoration: none;
 }
+
+/****** 
+About us
+******/
+
+/****** 
+Home page 
+******/
+
+/****** 
+Posts list 
+******/
+.posts-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #f9f9f9;
+}
