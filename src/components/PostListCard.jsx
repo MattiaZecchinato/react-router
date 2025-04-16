@@ -1,7 +1,10 @@
+// css
+import style from './PostListCard.module.css';
+
 export default function PostCard({ title, content }) {
 
-    return <div>
+    return <div className={style.cardBox}>
         <h2>{title}</h2>
-        <p>{content}</p>
+        <p>{content}.</p>
     </div>
 }

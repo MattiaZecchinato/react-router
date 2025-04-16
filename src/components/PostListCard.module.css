@@ -1,0 +1,20 @@
+.cardBox {
+
+    background-color: #fff;
+    max-width: 1000px;
+    width: 90%;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.cardBox h2::first-letter,
+.cardBox p::first-letter {
+
+    text-transform: capitalize;
+}
+
+.cardBox h2 {
+
+    margin-bottom: 0.5rem;
+}
