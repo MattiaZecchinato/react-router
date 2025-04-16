@@ -1,0 +1,12 @@
+.linkBox {
+
+    display: flex;
+    gap: 20px;
+}
+
+.link span {
+
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+}
