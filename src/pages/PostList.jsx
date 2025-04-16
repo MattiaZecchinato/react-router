@@ -17,7 +17,7 @@ export default function PostList() {
             .catch(err => console.log(err))
     }, []);
 
-    return <div className="posts-container">
+    return <div className="container posts-container">
     
         <h1>Recent Posts</h1>
         {postsList.map(elem => <PostCard key={elem.id} title={elem.title} content={elem.body} />)}
