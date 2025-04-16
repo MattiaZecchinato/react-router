@@ -2,10 +2,10 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #222;
     color: #fff;
-    padding: 3.5rem 450px;
+    padding: 3.5rem 0;
 }
 
 .headerBox p {
