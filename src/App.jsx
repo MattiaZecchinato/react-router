@@ -6,6 +6,8 @@ import HomePage from "./components/HomePage";
 import AboutUs from "./components/AboutUs";
 // Post list
 import PostList from "./components/PostList";
+// Nav bar
+import NavBar from "./components/NavBar";
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
     <>
       <BrowserRouter>
 
+        <NavBar />
+        
         <Routes>
 
           <Route path="/" element={<HomePage />}/>
