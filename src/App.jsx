@@ -2,8 +2,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Main layout
 import MainLayout from "./layouts/MainLayout";
-// Nav bar
-import NavBar from "./components/NavBar";
 // Home page
 import HomePage from "./pages/HomePage";
 // About us
