@@ -7,7 +7,6 @@ import PostCard from "../components/PostListCard";
 export default function PostList() {
 
     const uri = 'https://jsonplaceholder.typicode.com/posts';
-    console.log(uri);
 
     const [postsList, setPostsList] = useState([]);
 
