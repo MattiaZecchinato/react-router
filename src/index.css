@@ -11,30 +11,50 @@ reset
 body {
 
     font-family: "Segoe UI", sans-serif;
+    background-color: #f9f9f9;
+}
+
+/****** 
+Common 
+******/
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 20px;
 }
 
 a {
 
     text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+
+    text-decoration: underline;
+}
+
+/****** 
+Home page 
+******/
+.home-page-container p {
+
+    max-width: 1000px;
+    width: 90%;
 }
 
 /****** 
 About us
 ******/
+.about-us-container p {
 
-/****** 
-Home page 
-******/
+    max-width: 1000px;
+    width: 90%;
+}
 
 /****** 
 Posts list 
 ******/
-.posts-container {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    background-color: #f9f9f9;
-    padding: 1rem 0;
-}
