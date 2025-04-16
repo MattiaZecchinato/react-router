@@ -1,0 +1,16 @@
+.headerBox {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222;
+    color: #fff;
+    padding: 3.5rem 0;
+}
+
+.headerBox p {
+
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: bold;
+}
