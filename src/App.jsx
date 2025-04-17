@@ -8,6 +8,8 @@ import HomePage from "./pages/HomePage";
 import AboutUs from "./pages/AboutUs";
 // Post list
 import PostList from "./pages/PostList";
+// Single Post
+import Post from "./pages/Post";
 
 function App() {
 
@@ -20,6 +22,7 @@ function App() {
             <Route path="/" element={<HomePage />}/>
             <Route path="/AboutUs" element={<AboutUs />} />
             <Route path="/PostList" element={<PostList />} />
+            <Route path="/PostList/:id" element={<Post />} />
           </Route>
         </Routes>
 
