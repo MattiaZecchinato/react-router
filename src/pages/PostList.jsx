@@ -20,7 +20,7 @@ export default function PostList() {
     return <div className="container posts-container">
     
         <h1>Recent Posts</h1>
-        {postsList.map(elem => <PostCard key={elem.id} title={elem.title} content={elem.body} />)}
+        {postsList.map(elem => <PostCard key={elem.id} id={elem.id} title={elem.title} content={elem.body} />)}
     
     </div>
 }
