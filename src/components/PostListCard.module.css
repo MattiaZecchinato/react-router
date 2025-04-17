@@ -18,3 +18,13 @@
 
     margin-bottom: 0.5rem;
 }
+
+a {
+
+    color: black;
+}
+
+a:hover {
+
+    text-decoration: none;
+}
